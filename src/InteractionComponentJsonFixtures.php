@@ -19,19 +19,19 @@ namespace XApi\Fixtures\Json;
  */
 class InteractionComponentJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'InteractionComponent';
+    public const DIRECTORY = 'InteractionComponent';
 
-    public static function getTypicalInteractionComponent()
+    public static function getTypicalInteractionComponent(): string
     {
         return self::load('typical');
     }
 
-    public static function getIdOnlyInteractionComponent()
+    public static function getIdOnlyInteractionComponent(): string
     {
         return self::load('id_only');
     }
 
-    public static function getAllPropertiesInteractionComponent()
+    public static function getAllPropertiesInteractionComponent(): string
     {
         return self::load('all_properties');
     }

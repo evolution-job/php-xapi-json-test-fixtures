@@ -19,29 +19,29 @@ namespace XApi\Fixtures\Json;
  */
 class ExtensionsJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Extensions';
+    public const DIRECTORY = 'Extensions';
 
-    public static function getEmptyExtensions()
+    public static function getEmptyExtensions(): string
     {
         return self::load('empty');
     }
 
-    public static function getTypicalExtensions()
+    public static function getTypicalExtensions(): string
     {
         return self::load('typical');
     }
 
-    public static function getWithObjectValueExtensions()
+    public static function getWithObjectValueExtensions(): string
     {
         return self::load('with_object_value');
     }
 
-    public static function getWithIntegerValueExtensions()
+    public static function getWithIntegerValueExtensions(): string
     {
         return self::load('with_integer_value');
     }
 
-    public static function getMultiplePairsExtensions()
+    public static function getMultiplePairsExtensions(): string
     {
         return self::load('multiple_pairs');
     }

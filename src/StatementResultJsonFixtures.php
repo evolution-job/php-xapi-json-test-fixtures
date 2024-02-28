@@ -18,14 +18,14 @@ namespace XApi\Fixtures\Json;
  */
 class StatementResultJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'StatementResult';
+    public const DIRECTORY = 'StatementResult';
 
     /**
      * Loads a statement result.
      *
      * @return string
      */
-    public static function getStatementResult()
+    public static function getStatementResult(): string
     {
         return static::load('result');
     }
@@ -35,7 +35,7 @@ class StatementResultJsonFixtures extends JsonFixtures
      *
      * @return string
      */
-    public static function getStatementResultWithMore()
+    public static function getStatementResultWithMore(): string
     {
         return static::load('result_with_more');
     }

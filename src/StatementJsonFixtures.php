@@ -18,29 +18,29 @@ namespace XApi\Fixtures\Json;
  */
 class StatementJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Statement';
+    public const DIRECTORY = 'Statement';
 
     /**
      * Loads a minimal valid statement.
      *
      * @return string
      */
-    public static function getMinimalStatement()
+    public static function getMinimalStatement(): string
     {
         return static::load('minimal');
     }
 
-    public static function getTypicalStatement()
+    public static function getTypicalStatement(): string
     {
         return static::load('typical');
     }
 
-    public static function getVoidingStatement()
+    public static function getVoidingStatement(): string
     {
         return static::load('voiding');
     }
 
-    public static function getAttachmentStatement()
+    public static function getAttachmentStatement(): string
     {
         return static::load('attachment');
     }
@@ -50,7 +50,7 @@ class StatementJsonFixtures extends JsonFixtures
      *
      * @return string
      */
-    public static function getStatementWithGroupActor()
+    public static function getStatementWithGroupActor(): string
     {
         return static::load('with_group_actor');
     }
@@ -60,7 +60,7 @@ class StatementJsonFixtures extends JsonFixtures
      *
      * @return string
      */
-    public static function getStatementWithGroupActorWithoutMembers()
+    public static function getStatementWithGroupActorWithoutMembers(): string
     {
         return static::load('with_group_actor_without_members');
     }
@@ -70,7 +70,7 @@ class StatementJsonFixtures extends JsonFixtures
      *
      * @return string
      */
-    public static function getStatementWithStatementRef()
+    public static function getStatementWithStatementRef(): string
     {
         return static::load('with_statement_ref');
     }
@@ -80,7 +80,7 @@ class StatementJsonFixtures extends JsonFixtures
      *
      * @return string
      */
-    public static function getStatementWithResult()
+    public static function getStatementWithResult(): string
     {
         return static::load('with_result');
     }
@@ -90,7 +90,7 @@ class StatementJsonFixtures extends JsonFixtures
      *
      * @return string
      */
-    public static function getStatementWithSubStatement()
+    public static function getStatementWithSubStatement(): string
     {
         return static::load('with_sub_statement');
     }
@@ -100,7 +100,7 @@ class StatementJsonFixtures extends JsonFixtures
      *
      * @return string
      */
-    public static function getStatementWithAgentAuthority()
+    public static function getStatementWithAgentAuthority(): string
     {
         return static::load('with_agent_authority');
     }
@@ -110,12 +110,12 @@ class StatementJsonFixtures extends JsonFixtures
      *
      * @return string
      */
-    public static function getStatementWithGroupAuthority()
+    public static function getStatementWithGroupAuthority(): string
     {
         return static::load('with_group_authority');
     }
 
-    public static function getAllPropertiesStatement()
+    public static function getAllPropertiesStatement(): string
     {
         return static::load('all_properties');
     }
@@ -125,7 +125,7 @@ class StatementJsonFixtures extends JsonFixtures
      *
      * @return string
      */
-    public static function getStatementCollection()
+    public static function getStatementCollection(): string
     {
         return static::load('collection');
     }

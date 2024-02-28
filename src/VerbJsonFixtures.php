@@ -19,29 +19,29 @@ namespace XApi\Fixtures\Json;
  */
 class VerbJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Verb';
+    public const DIRECTORY = 'Verb';
 
-    public static function getTypicalVerb()
+    public static function getTypicalVerb(): string
     {
         return self::load('typical');
     }
 
-    public static function getVoidingVerb()
+    public static function getVoidingVerb(): string
     {
         return self::load('voiding');
     }
 
-    public static function getIdVerb()
+    public static function getIdVerb(): string
     {
         return self::load('id');
     }
 
-    public static function getIdAndDisplayVerb()
+    public static function getIdAndDisplayVerb(): string
     {
         return self::load('id_and_display');
     }
 
-    public static function getForQueryVerb()
+    public static function getForQueryVerb(): string
     {
         return self::load('for_query');
     }

@@ -19,169 +19,169 @@ namespace XApi\Fixtures\Json;
  */
 class ActorJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Actor';
+    public const DIRECTORY = 'Actor';
 
-    public static function getTypicalAgent()
+    public static function getTypicalAgent(): string
     {
         return self::load('typical_agent');
     }
 
-    public static function getTypicalAgentWithType()
+    public static function getTypicalAgentWithType(): string
     {
         return self::load('typical_agent_with_type');
     }
 
-    public static function getMboxAgent()
+    public static function getMboxAgent(): string
     {
         return self::load('mbox_agent');
     }
 
-    public static function getMboxAgentWithType()
+    public static function getMboxAgentWithType(): string
     {
         return self::load('mbox_agent_with_type');
     }
 
-    public static function getMboxSha1SumAgent()
+    public static function getMboxSha1SumAgent(): string
     {
         return self::load('mbox_sha1_sum_agent');
     }
 
-    public static function getMboxSha1SumAgentWithType()
+    public static function getMboxSha1SumAgentWithType(): string
     {
         return self::load('mbox_sha1_sum_agent_with_type');
     }
 
-    public static function getOpenIdAgent()
+    public static function getOpenIdAgent(): string
     {
         return self::load('open_id_agent');
     }
 
-    public static function getOpenIdAgentWithType()
+    public static function getOpenIdAgentWithType(): string
     {
         return self::load('open_id_agent_with_type');
     }
 
-    public static function getAccountAgent()
+    public static function getAccountAgent(): string
     {
         return self::load('account_agent');
     }
 
-    public static function getAccountAgentWithType()
+    public static function getAccountAgentWithType(): string
     {
         return self::load('account_agent_with_type');
     }
 
-    public static function getForQueryMboxAgent()
+    public static function getForQueryMboxAgent(): string
     {
         return self::load('for_query_mbox_agent');
     }
 
-    public static function getForQueryMboxSha1SumAgent()
+    public static function getForQueryMboxSha1SumAgent(): string
     {
         return self::load('for_query_mbox_sha1_sum_agent');
     }
 
-    public static function getForQueryOpenIdAgent()
+    public static function getForQueryOpenIdAgent(): string
     {
         return self::load('for_query_open_id_agent');
     }
 
-    public static function getForQueryAccountAgent()
+    public static function getForQueryAccountAgent(): string
     {
         return self::load('for_query_account_agent');
     }
 
-    public static function getTypicalGroup()
+    public static function getTypicalGroup(): string
     {
         return self::load('typical_group');
     }
 
-    public static function getMboxGroup()
+    public static function getMboxGroup(): string
     {
         return self::load('mbox_group');
     }
 
-    public static function getMboxSha1SumGroup()
+    public static function getMboxSha1SumGroup(): string
     {
         return self::load('mbox_sha1_sum_group');
     }
 
-    public static function getOpenIdGroup()
+    public static function getOpenIdGroup(): string
     {
         return self::load('open_id_group');
     }
 
-    public static function getAccountGroup()
+    public static function getAccountGroup(): string
     {
         return self::load('account_group');
     }
 
-    public static function getMboxAndNameGroup()
+    public static function getMboxAndNameGroup(): string
     {
         return self::load('mbox_and_name_group');
     }
 
-    public static function getMboxSha1SumAndNameGroup()
+    public static function getMboxSha1SumAndNameGroup(): string
     {
         return self::load('mbox_sha1_sum_and_name_group');
     }
 
-    public static function getOpenIdAndNameGroup()
+    public static function getOpenIdAndNameGroup(): string
     {
         return self::load('open_id_and_name_group');
     }
 
-    public static function getAccountAndNameGroup()
+    public static function getAccountAndNameGroup(): string
     {
         return self::load('account_and_name_group');
     }
 
-    public static function getMboxAndMemberGroup()
+    public static function getMboxAndMemberGroup(): string
     {
         return self::load('mbox_and_member_group');
     }
 
-    public static function getMboxSha1SumAndMemberGroup()
+    public static function getMboxSha1SumAndMemberGroup(): string
     {
         return self::load('mbox_sha1_sum_and_member_group');
     }
 
-    public static function getOpenIdAndMemberGroup()
+    public static function getOpenIdAndMemberGroup(): string
     {
         return self::load('open_id_and_member_group');
     }
 
-    public static function getAccountAndMemberGroup()
+    public static function getAccountAndMemberGroup(): string
     {
         return self::load('account_and_member_group');
     }
 
-    public static function getAllPropertiesAndTypicalAgentMemberGroup()
+    public static function getAllPropertiesAndTypicalAgentMemberGroup(): string
     {
         return self::load('all_properties_and_typical_agent_member_group');
     }
 
-    public static function getAllPropertiesAndMboxAgentMemberGroup()
+    public static function getAllPropertiesAndMboxAgentMemberGroup(): string
     {
         return self::load('all_properties_and_mbox_agent_member_group');
     }
 
-    public static function getAllPropertiesAndMboxSha1SumAgentMemberGroup()
+    public static function getAllPropertiesAndMboxSha1SumAgentMemberGroup(): string
     {
         return self::load('all_properties_and_mbox_sha1_sum_agent_member_group');
     }
 
-    public static function getAllPropertiesAndOpenIdAgentMemberGroup()
+    public static function getAllPropertiesAndOpenIdAgentMemberGroup(): string
     {
         return self::load('all_properties_and_open_id_agent_member_group');
     }
 
-    public static function getAllPropertiesAndAccountAgentMemberGroup()
+    public static function getAllPropertiesAndAccountAgentMemberGroup(): string
     {
         return self::load('all_properties_and_account_agent_member_group');
     }
 
-    public static function getAllPropertiesAndTwoTypicalAgentMembersGroup()
+    public static function getAllPropertiesAndTwoTypicalAgentMembersGroup(): string
     {
         return self::load('all_properties_and_two_typical_agent_members_group');
     }

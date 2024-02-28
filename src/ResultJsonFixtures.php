@@ -19,174 +19,174 @@ namespace XApi\Fixtures\Json;
  */
 class ResultJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Result';
+    public const DIRECTORY = 'Result';
 
-    public static function getEmptyResult()
+    public static function getEmptyResult(): string
     {
         return self::load('empty');
     }
 
-    public static function getTypicalResult()
+    public static function getTypicalResult(): string
     {
         return self::load('typical');
     }
 
-    public static function getScoreResult()
+    public static function getScoreResult(): string
     {
         return self::load('score');
     }
 
-    public static function getEmptyScoreResult()
+    public static function getEmptyScoreResult(): string
     {
         return self::load('empty_score');
     }
 
-    public static function getSuccessResult()
+    public static function getSuccessResult(): string
     {
         return self::load('success');
     }
 
-    public static function getCompletionResult()
+    public static function getCompletionResult(): string
     {
         return self::load('completion');
     }
 
-    public static function getResponseResult()
+    public static function getResponseResult(): string
     {
         return self::load('response');
     }
 
-    public static function getDurationResult()
+    public static function getDurationResult(): string
     {
         return self::load('duration');
     }
 
-    public static function getExtensionsResult()
+    public static function getExtensionsResult(): string
     {
         return self::load('extensions');
     }
 
-    public static function getEmptyExtensionsResult()
+    public static function getEmptyExtensionsResult(): string
     {
         return self::load('empty_extensions');
     }
 
-    public static function getScoreAndSuccessResult()
+    public static function getScoreAndSuccessResult(): string
     {
         return self::load('score_and_success');
     }
 
-    public static function getScoreAndCompletionResult()
+    public static function getScoreAndCompletionResult(): string
     {
         return self::load('score_and_completion');
     }
 
-    public static function getScoreAndResponseResult()
+    public static function getScoreAndResponseResult(): string
     {
         return self::load('score_and_response');
     }
 
-    public static function getScoreAndDurationResult()
+    public static function getScoreAndDurationResult(): string
     {
         return self::load('score_and_duration');
     }
 
-    public static function getSuccessAndCompletionResult()
+    public static function getSuccessAndCompletionResult(): string
     {
         return self::load('success_and_completion');
     }
 
-    public static function getSuccessAndResponseResult()
+    public static function getSuccessAndResponseResult(): string
     {
         return self::load('success_and_response');
     }
 
-    public static function getSuccessAndDurationResult()
+    public static function getSuccessAndDurationResult(): string
     {
         return self::load('success_and_duration');
     }
 
-    public static function getCompletionAndResponseResult()
+    public static function getCompletionAndResponseResult(): string
     {
         return self::load('completion_and_response');
     }
 
-    public static function getCompletionAndDurationResult()
+    public static function getCompletionAndDurationResult(): string
     {
         return self::load('completion_and_duration');
     }
 
-    public static function getResponseAndDurationResult()
+    public static function getResponseAndDurationResult(): string
     {
         return self::load('response_and_duration');
     }
 
-    public static function getScoreSuccessAndCompletionResult()
+    public static function getScoreSuccessAndCompletionResult(): string
     {
         return self::load('score_success_and_completion');
     }
 
-    public static function getScoreSuccessAndResponseResult()
+    public static function getScoreSuccessAndResponseResult(): string
     {
         return self::load('score_success_and_response');
     }
 
-    public static function getScoreSuccessAndDurationResult()
+    public static function getScoreSuccessAndDurationResult(): string
     {
         return self::load('score_success_and_duration');
     }
 
-    public static function getScoreCompletionAndResponseResult()
+    public static function getScoreCompletionAndResponseResult(): string
     {
         return self::load('score_completion_and_response');
     }
 
-    public static function getScoreCompletionAndDurationResult()
+    public static function getScoreCompletionAndDurationResult(): string
     {
         return self::load('score_completion_and_duration');
     }
 
-    public static function getScoreResponseAndDurationResult()
+    public static function getScoreResponseAndDurationResult(): string
     {
         return self::load('score_response_and_duration');
     }
 
-    public static function getSuccessCompletionAndResponseResult()
+    public static function getSuccessCompletionAndResponseResult(): string
     {
         return self::load('success_completion_and_response');
     }
 
-    public static function getSuccessCompletionAndDurationResult()
+    public static function getSuccessCompletionAndDurationResult(): string
     {
         return self::load('success_completion_and_duration');
     }
 
-    public static function getSuccessResponseAndDurationResult()
+    public static function getSuccessResponseAndDurationResult(): string
     {
         return self::load('success_response_and_duration');
     }
 
-    public static function getCompletionResponseAndDurationResult()
+    public static function getCompletionResponseAndDurationResult(): string
     {
         return self::load('completion_response_and_duration');
     }
 
-    public static function getScoreSuccessCompletionAndResponseResult()
+    public static function getScoreSuccessCompletionAndResponseResult(): string
     {
         return self::load('score_success_completion_and_response');
     }
 
-    public static function getScoreSuccessCompletionAndDurationResult()
+    public static function getScoreSuccessCompletionAndDurationResult(): string
     {
         return self::load('score_success_completion_and_duration');
     }
 
-    public static function getSuccessCompletionResponseAndDurationResult()
+    public static function getSuccessCompletionResponseAndDurationResult(): string
     {
         return self::load('success_completion_response_and_duration');
     }
 
-    public static function getAllPropertiesResult()
+    public static function getAllPropertiesResult(): string
     {
         return self::load('all_properties');
     }

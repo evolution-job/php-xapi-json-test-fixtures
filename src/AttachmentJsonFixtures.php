@@ -19,19 +19,19 @@ namespace XApi\Fixtures\Json;
  */
 class AttachmentJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Attachment';
+    public const DIRECTORY = 'Attachment';
 
-    public static function getTextAttachment()
+    public static function getTextAttachment(): string
     {
         return self::load('text');
     }
 
-    public static function getJSONAttachment()
+    public static function getJSONAttachment(): string
     {
         return self::load('JSON');
     }
 
-    public static function getFileUrlOnlyAttachment()
+    public static function getFileUrlOnlyAttachment(): string
     {
         return self::load('file_url_only');
     }

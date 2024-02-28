@@ -19,99 +19,99 @@ namespace XApi\Fixtures\Json;
  */
 class ContextJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Context';
+    public const DIRECTORY = 'Context';
 
-    public static function getEmptyContext()
+    public static function getEmptyContext(): string
     {
         return self::load('empty');
     }
 
-    public static function getTypicalContext()
+    public static function getTypicalContext(): string
     {
         return self::load('typical');
     }
 
-    public static function getTypicalAgentInstructorContext()
+    public static function getTypicalAgentInstructorContext(): string
     {
         return self::load('typical_agent_instructor');
     }
 
-    public static function getMboxAgentInstructorContext()
+    public static function getMboxAgentInstructorContext(): string
     {
         return self::load('mbox_agent_instructor');
     }
 
-    public static function getMboxAgentInstructorContextWithType()
+    public static function getMboxAgentInstructorContextWithType(): string
     {
         return self::load('mbox_agent_with_type_instructor');
     }
 
-    public static function getMboxSha1SumAgentInstructorContext()
+    public static function getMboxSha1SumAgentInstructorContext(): string
     {
         return self::load('mbox_sha1_sum_agent_instructor');
     }
 
-    public static function getMboxSha1SumAgentInstructorContextWithType()
+    public static function getMboxSha1SumAgentInstructorContextWithType(): string
     {
         return self::load('mbox_sha1_sum_agent_with_type_instructor');
     }
 
-    public static function getOpenIdAgentInstructorContext()
+    public static function getOpenIdAgentInstructorContext(): string
     {
         return self::load('open_id_agent_instructor');
     }
 
-    public static function getOpenIdAgentInstructorContextWithType()
+    public static function getOpenIdAgentInstructorContextWithType(): string
     {
         return self::load('open_id_agent_with_type_instructor');
     }
 
-    public static function getAccountAgentInstructorContext()
+    public static function getAccountAgentInstructorContext(): string
     {
         return self::load('account_agent_instructor');
     }
 
-    public static function getAccountAgentInstructorContextWithType()
+    public static function getAccountAgentInstructorContextWithType(): string
     {
         return self::load('account_agent_with_type_instructor');
     }
 
-    public static function getTypicalGroupTeamContext()
+    public static function getTypicalGroupTeamContext(): string
     {
         return self::load('typical_group_team');
     }
 
-    public static function getStatementOnlyContext()
+    public static function getStatementOnlyContext(): string
     {
         return self::load('statement_only');
     }
 
-    public static function getExtensionsOnlyContext()
+    public static function getExtensionsOnlyContext(): string
     {
         return self::load('extensions_only');
     }
 
-    public static function getEmptyExtensionsOnlyContext()
+    public static function getEmptyExtensionsOnlyContext(): string
     {
         return self::load('empty_extensions_only');
     }
 
-    public static function getEmptyContextActivitiesContext()
+    public static function getEmptyContextActivitiesContext(): string
     {
         return self::load('empty_context_activities');
     }
 
-    public static function getEmptyContextActivitiesAllPropertiesEmptyContext()
+    public static function getEmptyContextActivitiesAllPropertiesEmptyContext(): string
     {
         return self::load('empty_context_activities_all_properties_empty');
     }
 
-    public static function getContextActivitiesAllPropertiesOnlyContext()
+    public static function getContextActivitiesAllPropertiesOnlyContext(): string
     {
         return self::load('context_activities_all_properties_only');
     }
 
-    public static function getAllPropertiesContext()
+    public static function getAllPropertiesContext(): string
     {
         return self::load('all_properties');
     }

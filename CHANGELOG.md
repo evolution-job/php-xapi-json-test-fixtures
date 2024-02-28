@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+2.2.0
+-----
+
+* added support for PHP < 8.1
+* code style
+
 2.1.0
 -----
 

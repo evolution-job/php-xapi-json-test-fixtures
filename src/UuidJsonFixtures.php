@@ -19,14 +19,14 @@ namespace XApi\Fixtures\Json;
  */
 class UuidJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Uuid';
+    public const DIRECTORY = 'Uuid';
 
-    public static function getGoodUuid()
+    public static function getGoodUuid(): string
     {
         return self::load('good_uuid');
     }
 
-    public static function getBadUuid()
+    public static function getBadUuid(): string
     {
         return self::load('bad_uuid');
     }

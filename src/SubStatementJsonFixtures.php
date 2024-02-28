@@ -19,154 +19,154 @@ namespace XApi\Fixtures\Json;
  */
 class SubStatementJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'SubStatement';
+    public const DIRECTORY = 'SubStatement';
 
-    public static function getTypicalSubStatement()
+    public static function getTypicalSubStatement(): string
     {
         return self::load('typical');
     }
 
-    public static function getSubStatementWithMboxAgent()
+    public static function getSubStatementWithMboxAgent(): string
     {
         return self::load('mbox_agent_actor');
     }
 
-    public static function getSubStatementWithMboxSha1SumAgent()
+    public static function getSubStatementWithMboxSha1SumAgent(): string
     {
         return self::load('mbox_sha1_sum_agent_actor');
     }
 
-    public static function getSubStatementWithOpenIdAgent()
+    public static function getSubStatementWithOpenIdAgent(): string
     {
         return self::load('open_id_agent_actor');
     }
 
-    public static function getSubStatementWithAccountAgent()
+    public static function getSubStatementWithAccountAgent(): string
     {
         return self::load('account_agent_actor');
     }
 
-    public static function getSubStatementWithMboxAgentWithType()
+    public static function getSubStatementWithMboxAgentWithType(): string
     {
         return self::load('mbox_agent_with_type_actor');
     }
 
-    public static function getSubStatementWithMboxSha1SumAgentWithType()
+    public static function getSubStatementWithMboxSha1SumAgentWithType(): string
     {
         return self::load('mbox_sha1_sum_agent_with_type_actor');
     }
 
-    public static function getSubStatementWithOpenIdAgentWithType()
+    public static function getSubStatementWithOpenIdAgentWithType(): string
     {
         return self::load('open_id_agent_with_type_actor');
     }
 
-    public static function getSubStatementWithAccountAgentWithType()
+    public static function getSubStatementWithAccountAgentWithType(): string
     {
         return self::load('account_agent_with_type_actor');
     }
 
-    public static function getSubStatementWithMboxGroup()
+    public static function getSubStatementWithMboxGroup(): string
     {
         return self::load('mbox_group_actor');
     }
 
-    public static function getSubStatementWithMboxSha1SumGroup()
+    public static function getSubStatementWithMboxSha1SumGroup(): string
     {
         return self::load('mbox_sha1_sum_group_actor');
     }
 
-    public static function getSubStatementWithOpenIdGroup()
+    public static function getSubStatementWithOpenIdGroup(): string
     {
         return self::load('open_id_group_actor');
     }
 
-    public static function getSubStatementWithAccountGroup()
+    public static function getSubStatementWithAccountGroup(): string
     {
         return self::load('account_group_actor');
     }
 
-    public static function getSubStatementWithIdOnlyVerb()
+    public static function getSubStatementWithIdOnlyVerb(): string
     {
         return self::load('id_verb');
     }
 
-    public static function getSubStatementWithMboxAgentObject()
+    public static function getSubStatementWithMboxAgentObject(): string
     {
         return self::load('mbox_agent_object');
     }
 
-    public static function getSubStatementWithMboxSha1SumAgentObject()
+    public static function getSubStatementWithMboxSha1SumAgentObject(): string
     {
         return self::load('mbox_sha1_sum_agent_object');
     }
 
-    public static function getSubStatementWithOpenIdAgentObject()
+    public static function getSubStatementWithOpenIdAgentObject(): string
     {
         return self::load('open_id_agent_object');
     }
 
-    public static function getSubStatementWithAccountAgentObject()
+    public static function getSubStatementWithAccountAgentObject(): string
     {
         return self::load('account_agent_object');
     }
 
-    public static function getSubStatementWithMboxAgentObjectWithType()
+    public static function getSubStatementWithMboxAgentObjectWithType(): string
     {
         return self::load('mbox_agent_with_type_object');
     }
 
-    public static function getSubStatementWithMboxSha1SumAgentObjectWithType()
+    public static function getSubStatementWithMboxSha1SumAgentObjectWithType(): string
     {
         return self::load('mbox_sha1_sum_agent_with_type_object');
     }
 
-    public static function getSubStatementWithOpenIdAgentObjectWithType()
+    public static function getSubStatementWithOpenIdAgentObjectWithType(): string
     {
         return self::load('open_id_agent_with_type_object');
     }
 
-    public static function getSubStatementWithAccountAgentObjectWithType()
+    public static function getSubStatementWithAccountAgentObjectWithType(): string
     {
         return self::load('account_agent_with_type_object');
     }
 
-    public static function getSubStatementWithMboxGroupObject()
+    public static function getSubStatementWithMboxGroupObject(): string
     {
         return self::load('mbox_group_object');
     }
 
-    public static function getSubStatementWithMboxSha1SumGroupObject()
+    public static function getSubStatementWithMboxSha1SumGroupObject(): string
     {
         return self::load('mbox_sha1_sum_group_object');
     }
 
-    public static function getSubStatementWithOpenIdGroupObject()
+    public static function getSubStatementWithOpenIdGroupObject(): string
     {
         return self::load('open_id_group_object');
     }
 
-    public static function getSubStatementWithAccountGroupObject()
+    public static function getSubStatementWithAccountGroupObject(): string
     {
         return self::load('account_group_object');
     }
 
-    public static function getSubStatementWithAllPropertiesAndTypicalAgentMemberGroupObject()
+    public static function getSubStatementWithAllPropertiesAndTypicalAgentMemberGroupObject(): string
     {
         return self::load('all_properties_typical_agent_member_group_object');
     }
 
-    public static function getSubStatementWithAllPropertiesActivityObject()
+    public static function getSubStatementWithAllPropertiesActivityObject(): string
     {
         return self::load('all_properties_activity_object');
     }
 
-    public static function getSubStatementWithTypicalStatementReferenceObject()
+    public static function getSubStatementWithTypicalStatementReferenceObject(): string
     {
         return self::load('typical_statement_reference_object');
     }
 
-    public static function getAllPropertiesSubStatement()
+    public static function getAllPropertiesSubStatement(): string
     {
         return self::load('all_properties');
     }

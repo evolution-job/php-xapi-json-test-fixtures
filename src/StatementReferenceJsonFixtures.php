@@ -19,14 +19,14 @@ namespace XApi\Fixtures\Json;
  */
 class StatementReferenceJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'StatementReference';
+    public const DIRECTORY = 'StatementReference';
 
-    public static function getTypicalStatementReference()
+    public static function getTypicalStatementReference(): string
     {
         return self::load('typical');
     }
 
-    public static function getAllPropertiesStatementReference()
+    public static function getAllPropertiesStatementReference(): string
     {
         return self::load('all_properties');
     }

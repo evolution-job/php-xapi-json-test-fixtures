@@ -19,84 +19,84 @@ namespace XApi\Fixtures\Json;
  */
 class ScoreJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Score';
+    public const DIRECTORY = 'Score';
 
-    public static function getEmptyScore()
+    public static function getEmptyScore(): string
     {
         return self::load('empty_score');
     }
 
-    public static function getTypicalScore()
+    public static function getTypicalScore(): string
     {
         return self::load('typical_score');
     }
 
-    public static function getScaledScore()
+    public static function getScaledScore(): string
     {
         return self::load('scaled_score');
     }
 
-    public static function getRawScore()
+    public static function getRawScore(): string
     {
         return self::load('raw_score');
     }
 
-    public static function getMinScore()
+    public static function getMinScore(): string
     {
         return self::load('min_score');
     }
 
-    public static function getMaxScore()
+    public static function getMaxScore(): string
     {
         return self::load('max_score');
     }
 
-    public static function getScaledAndRawScore()
+    public static function getScaledAndRawScore(): string
     {
         return self::load('scaled_and_raw_score');
     }
 
-    public static function getScaledAndMinScore()
+    public static function getScaledAndMinScore(): string
     {
         return self::load('scaled_and_min_score');
     }
 
-    public static function getScaledAndMaxScore()
+    public static function getScaledAndMaxScore(): string
     {
         return self::load('scaled_and_max_score');
     }
 
-    public static function getRawAndMinScore()
+    public static function getRawAndMinScore(): string
     {
         return self::load('raw_and_min_score');
     }
 
-    public static function getRawAndMaxScore()
+    public static function getRawAndMaxScore(): string
     {
         return self::load('raw_and_max_score');
     }
 
-    public static function getMinAndMaxScore()
+    public static function getMinAndMaxScore(): string
     {
         return self::load('min_and_max_score');
     }
 
-    public static function getScaledRawAndMinScore()
+    public static function getScaledRawAndMinScore(): string
     {
         return self::load('scaled_raw_and_min_score');
     }
 
-    public static function getScaledRawAndMaxScore()
+    public static function getScaledRawAndMaxScore(): string
     {
         return self::load('scaled_raw_and_max_score');
     }
 
-    public static function getRawMinAndMaxScore()
+    public static function getRawMinAndMaxScore(): string
     {
         return self::load('raw_min_and_max_score');
     }
 
-    public static function getAllPropertiesScore()
+    public static function getAllPropertiesScore(): string
     {
         return self::load('all_properties_score');
     }

@@ -19,44 +19,44 @@ namespace XApi\Fixtures\Json;
  */
 class ContextActivitiesJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'ContextActivities';
+    public const DIRECTORY = 'ContextActivities';
 
-    public static function getEmptyContextActivities()
+    public static function getEmptyContextActivities(): string
     {
         return self::load('empty');
     }
 
-    public static function getTypicalContextActivities()
+    public static function getTypicalContextActivities(): string
     {
         return self::load('typical');
     }
 
-    public static function getCategoryOnlyContextActivities()
+    public static function getCategoryOnlyContextActivities(): string
     {
         return self::load('category_only');
     }
 
-    public static function getParentOnlyContextActivities()
+    public static function getParentOnlyContextActivities(): string
     {
         return self::load('parent_only');
     }
 
-    public static function getGroupingOnlyContextActivities()
+    public static function getGroupingOnlyContextActivities(): string
     {
         return self::load('grouping_only');
     }
 
-    public static function getOtherOnlyContextActivities()
+    public static function getOtherOnlyContextActivities(): string
     {
         return self::load('other_only');
     }
 
-    public static function getAllPropertiesEmptyActivities()
+    public static function getAllPropertiesEmptyActivities(): string
     {
         return self::load('all_properties_empty');
     }
 
-    public static function getAllPropertiesActivities()
+    public static function getAllPropertiesActivities(): string
     {
         return self::load('all_properties');
     }

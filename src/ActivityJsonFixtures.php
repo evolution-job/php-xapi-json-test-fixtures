@@ -19,39 +19,39 @@ namespace XApi\Fixtures\Json;
  */
 class ActivityJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Activity';
+    public const DIRECTORY = 'Activity';
 
-    public static function getTypicalActivity()
+    public static function getTypicalActivity(): string
     {
         return self::load('typical');
     }
 
-    public static function getIdActivity()
+    public static function getIdActivity(): string
     {
         return self::load('id');
     }
 
-    public static function getIdActivityWithType()
+    public static function getIdActivityWithType(): string
     {
         return self::load('id_with_type');
     }
 
-    public static function getIdAndDefinitionActivity()
+    public static function getIdAndDefinitionActivity(): string
     {
         return self::load('id_and_definition');
     }
 
-    public static function getIdAndDefinitionActivityWithType()
+    public static function getIdAndDefinitionActivityWithType(): string
     {
         return self::load('id_and_definition_with_type');
     }
 
-    public static function getAllPropertiesActivity()
+    public static function getAllPropertiesActivity(): string
     {
         return self::load('all_properties');
     }
 
-    public static function getForQueryActivity()
+    public static function getForQueryActivity(): string
     {
         return self::load('for_query');
     }

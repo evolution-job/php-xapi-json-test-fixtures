@@ -19,24 +19,24 @@ namespace XApi\Fixtures\Json;
  */
 class AccountJsonFixtures extends JsonFixtures
 {
-    const DIRECTORY = 'Account';
+    public const DIRECTORY = 'Account';
 
-    public static function getTypicalAccount()
+    public static function getTypicalAccount(): string
     {
         return self::load('typical');
     }
 
-    public static function getConsumerAccount()
+    public static function getConsumerAccount(): string
     {
         return self::load('consumer');
     }
 
-    public static function getAllPropertiesAccount()
+    public static function getAllPropertiesAccount(): string
     {
         return self::load('all_properties');
     }
 
-    public static function getForQueryAccount()
+    public static function getForQueryAccount(): string
     {
         return self::load('for_query');
     }
