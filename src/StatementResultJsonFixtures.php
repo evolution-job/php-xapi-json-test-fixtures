@@ -22,8 +22,6 @@ class StatementResultJsonFixtures extends JsonFixtures
 
     /**
      * Loads a statement result.
-     *
-     * @return string
      */
     public static function getStatementResult(): string
     {
@@ -32,8 +30,6 @@ class StatementResultJsonFixtures extends JsonFixtures
 
     /**
      * Loads a statement result including a more reference.
-     *
-     * @return string
      */
     public static function getStatementResultWithMore(): string
     {

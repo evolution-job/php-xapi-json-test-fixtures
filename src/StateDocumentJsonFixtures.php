@@ -16,13 +16,17 @@ namespace XApi\Fixtures\Json;
  *
  * @author Christian Flothmann <christian.flothmann@xabbuh.de>
  */
-class DocumentJsonFixtures extends JsonFixtures
+class StateDocumentJsonFixtures extends JsonFixtures
 {
-    /**
-     * Loads a document.
-     */
-    public static function getDocument(): string
+    public const DIRECTORY = 'StateDocument';
+
+    public static function getMinimalStateDocument(): string
     {
-        return static::load('document');
+        return static::load('minimal');
+    }
+
+    public static function getTypicalStateDocument(): string
+    {
+        return static::load('typical');
     }
 }

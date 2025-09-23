@@ -1,10 +1,18 @@
 CHANGELOG
 =========
 
+2.3.0
+-----
+
+* Drop support PHP version < 8.1
+* Add `Person` fixtures
+* Add `State` fixtures
+* Add `StateDocument` fixtures
+
 2.2.0
 -----
 
-* added support for PHP < 8.1
+* added support for PHP 8.1
 * code style
 
 2.1.0

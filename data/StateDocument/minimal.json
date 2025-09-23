@@ -1,0 +1,11 @@
+{
+  "state": {
+    "stateId": "state-id",
+    "agent": {
+      "mbox": "mailto:alice@example.com",
+      "objectType": "Agent"
+    },
+    "activityId": "activity-id"
+  },
+  "data": []
+}

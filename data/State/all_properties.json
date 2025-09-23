@@ -1,0 +1,61 @@
+{
+    "stateId": "bookmark",
+    "agent": {
+        "mbox": "mailto:conformancetest@tincanapi.com",
+        "name": "Test Learner",
+        "objectType": "Agent"
+    },
+    "activityId": "http://tincanapi.com/conformancetest/activityid",
+    "registration": "123456-all",
+    "data": {
+        "bookmark": {
+            "page": 15,
+            "section": "chapter-3",
+            "lastAccessed": "2023-11-20T14:22:33Z",
+            "progress": 0.75,
+            "notes": [
+                {
+                    "id": "note-1",
+                    "text": "Important concept to remember",
+                    "timestamp": "2023-11-20T14:15:00Z"
+                },
+                {
+                    "id": "note-2",
+                    "text": "Follow up on this topic",
+                    "timestamp": "2023-11-20T14:20:15Z"
+                }
+            ],
+            "preferences": {
+                "fontSize": "medium",
+                "theme": "light",
+                "autoSave": true,
+                "notifications": {
+                    "email": true,
+                    "push": false
+                }
+            },
+            "metadata": {
+                "version": "1.2.0",
+                "lastModified": "2023-11-20T14:22:33Z",
+                "checksum": "a1b2c3d4e5f6789012345678901234567890abcd",
+                "contentType": "application/json",
+                "size": 1024
+            },
+            "extensions": {
+                "http://example.com/extension/device-info": {
+                    "platform": "web",
+                    "browser": "Chrome",
+                    "version": "119.0.0.0",
+                    "screenResolution": "1920x1080"
+                },
+                "http://example.com/extension/learning-path": {
+                    "pathId": "beginner-course",
+                    "completedSteps": 12,
+                    "totalSteps": 20,
+                    "estimatedTimeRemaining": "PT2H30M"
+                }
+            }
+        }
+    }
+}
+

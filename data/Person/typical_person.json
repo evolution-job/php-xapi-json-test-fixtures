@@ -1,0 +1,21 @@
+{
+    "accounts": [
+        {
+            "homePage": "https://tincanapi.com",
+            "name": "test"
+        }
+    ],
+    "mboxSha1Sums": [],
+    "mboxes": [
+        {
+            "value": "mailto:conformancetest@tincanapi.com"
+        },
+        {
+            "value": "mailto:conformancetest@tincanapi.com"
+        }
+    ],
+    "names": [],
+    "openIds": [
+        "http://openid.tincanapi.com"
+    ]
+}
