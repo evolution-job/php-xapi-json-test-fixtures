@@ -1,0 +1,12 @@
+{
+  "stateId": "bookmark",
+  "agent": {
+    "mbox": "mailto:conformancetest@tincanapi.com",
+    "objectType": "Agent"
+  },
+  "activityId": "http://tincanapi.com/conformancetest/activityid",
+  "registration": "123456",
+  "data": {
+    "progress": 0.5
+  }
+}

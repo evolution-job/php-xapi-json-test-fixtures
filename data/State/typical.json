@@ -1,0 +1,22 @@
+{
+  "stateId": "bookmark",
+  "agent": {
+    "mbox": "mailto:conformancetest@tincanapi.com",
+    "name": "Test User",
+    "objectType": "Agent"
+  },
+  "activityId": "http://tincanapi.com/conformancetest/activityid",
+  "registration": "123456",
+  "data": {
+    "progress": 0.75,
+    "bookmark": {
+      "page": 15,
+      "section": "chapter-3"
+    },
+    "preferences": {
+      "language": "en-US",
+      "volume": 0.8
+    },
+    "lastAccessed": "2013-05-18T05:32:34+00:00"
+  }
+}

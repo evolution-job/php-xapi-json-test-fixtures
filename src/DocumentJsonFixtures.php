@@ -20,10 +20,8 @@ class DocumentJsonFixtures extends JsonFixtures
 {
     /**
      * Loads a document.
-     *
-     * @return string
      */
-    public static function getDocument()
+    public static function getDocument(): string
     {
         return static::load('document');
     }
